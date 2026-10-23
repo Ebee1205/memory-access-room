@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e9e9e5" />
+    <meta name="description" content="Memory Access Room — explore a person through a room of memories." />
+    <title>Memory Access Room — Ebee</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="viewport" aria-label="3D memory room. Move with W, A, S, D. Press E to interact."></div>
+      <div class="screen-grain" aria-hidden="true"></div>
+      <header class="hud hud--top">
+        <div class="brand"><span class="brand__marker" aria-hidden="true"></span><span>MEMORY ACCESS ROOM</span><small>EST. 2026</small></div>
+        <nav class="quick-links" aria-label="빠른 접근">
+          <button type="button" data-open="tv">ARCHIVE</button>
+          <button type="button" data-open="phone">EXTERNAL LINE</button>
+        </nav>
+      </header>
+      <div class="scene-title" aria-hidden="true"><span>LOCATION: 001</span><strong>THE WHITE VOID</strong><span>ACCESS LEVEL / VISITOR</span></div>
+      <div id="interaction-prompt" class="interaction-prompt" role="status" aria-live="polite" hidden>
+        <kbd>E</kbd><span id="interaction-label">INTERACT</span>
+      </div>
+      <div class="hud hud--bottom">
+        <div class="hud-keys"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> MOVE</span><span><kbd>E</kbd> INTERACT</span><span><kbd>ESC</kbd> CLOSE</span></div>
+        <div class="status"><span class="status__dot"></span><span id="status-label">INITIALIZING</span></div>
+      </div>
+      <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+      <div id="panel-backdrop" class="panel-backdrop" hidden>
+        <section class="terminal-panel" role="dialog" aria-modal="true" aria-labelledby="panel-heading">
+          <div class="terminal-panel__chrome"><div><span class="panel-lamp"></span><span id="panel-kind">ARCHIVE / 01</span></div><button id="close-panel" class="close-button" type="button" aria-label="닫기">×</button></div>
+          <div class="terminal-panel__content" id="panel-content"></div>
+          <div class="terminal-panel__footer"><span>MEMORY ACCESS SYSTEM // v0.1</span><span>ESC TO EXIT</span></div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

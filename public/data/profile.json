@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "generatedAt": null,
+    "generator": "manual-placeholder / daiquery integration pending",
+    "approved": false,
+    "visibility": "public"
+  },
+  "channels": [
+    {
+      "id": "about",
+      "label": "IDENTITY",
+      "title": "WHO IS BEHIND THIS ROOM?",
+      "summary": "이곳은 한 사람의 기록을 해석한 소개가 쌓이는 공간입니다. 지금은 LLM 생성 전의 프로토타입으로 샘플 텍스트를 표시합니다.",
+      "entries": [
+        {
+          "heading": "IDENTITY / 001",
+          "body": "Memory Access Room은 개인 knowledge repository를 바탕으로 생성된 공개용 자기소개를 탐색하는 3D 인터페이스입니다."
+        },
+        {
+          "heading": "INTERPRETATION / PENDING",
+          "body": "추후 daiquery가 승인된 기록을 요약하고, 이 채널에 작업 방식과 관심사에 대한 해석을 추가할 예정입니다."
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "label": "PROJECTS",
+      "title": "PROJECT ARCHIVE",
+      "summary": "프로젝트 카드의 예시입니다. 실제 정보는 공개 여부 검토 후 교체합니다.",
+      "entries": [
+        {
+          "heading": "daiquery",
+          "body": "개인 기록을 구조화하고 회고·검색·해석에 활용하기 위한 지식 시스템 구상.",
+          "tags": ["KNOWLEDGE", "LLM", "GITHUB"]
+        },
+        {
+          "heading": "TryAngle",
+          "body": "실시간 데이터 파이프라인 및 관제 시스템 작업 이력을 소개할 수 있는 자리.",
+          "tags": ["BACKEND", "PIPELINE"]
+        },
+        {
+          "heading": "DoQ",
+          "body": "LLM 기반 대화 워크플로와 검증 자동화 경험을 정리할 수 있는 자리.",
+          "tags": ["LLM", "TESTING"]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "label": "TIMELINE",
+      "title": "CHRONOLOGICAL RECORD",
+      "summary": "시간에 따른 경험의 변화를 다루는 채널입니다.",
+      "entries": [
+        {
+          "heading": "DATA NOT YET INDEXED",
+          "body": "연도별 기록을 요약한 공개 타임라인은 daiquery 연동 후 생성할 예정입니다."
+        }
+      ]
+    },
+    {
+      "id": "reflections",
+      "label": "REFLECTIONS",
+      "title": "PATTERNS & REFLECTIONS",
+      "summary": "LLM이 기록에서 발견한 반복되는 질문, 선택, 학습 패턴을 소개합니다.",
+      "entries": [
+        {
+          "heading": "AWAITING INTERPRETATION",
+          "body": "원문 일지는 공개하지 않습니다. 공개가 승인된 요약과 필요한 출처만 이곳에 게시합니다."
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "label": "GITHUB",
+      "description": "VIEW PUBLIC REPOSITORIES",
+      "href": "https://github.com/Ebee1205"
+    }
+  ]
+}
